@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif; 
+}
+body {
+    background-color:rgb(243, 227, 214);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 20px 0;
+    width: 100%;
+}
+nav p , nav h2{
+    margin: 0 20px 0 20px;
+}
+
+.container h2 {
+    padding: 20px 0;
+}
+.egzaminyForm {
+    padding: 0 20px;
+}
+.egzamChanger,.egzamSettings {
+    margin-top: 15px;
+}
+
+.egzamSettings {
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.egzamsSettingsDiv form input, .sale-edit form div input, .egzaminForm input, .second input{
+    background-color: rgb(208, 208, 208);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+.egzamsSettingsDiv form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.egzamsSettingsDiv form button {
+    margin-top: 20px;
+}
+.egzamsSettingsDiv form input:hover ,.sale-edit form div input:hover, .egzaminForm input:hover{
+    cursor: pointer;
+    background: rgba(0,0,0, 0.3) !important;
+    border-radius: 20px;
+}
+.spacer {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin: 50px 0;
+}
+.egzaminDodaj, .egzaminDodaj form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn-egzam-add {
+    margin-top: 20px;
+}
+.saleLista {
+    max-width: 400px;
+    text-align: center;
+}
+.all{
+    width: 80%;
+}
+.submitSale {
+    margin-top: 20px;
+}
+.sale {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.egzaminDodaj div {
+    min-width: 200px;
+}
+.dodajSale form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dodajSale div {
+    text-align: center;
+    min-width: 200px;
+}
+.dodajSale {
+    margin-top: 50px;
+}
+.sale-edit form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sale-edit div {
+    display: flex;
+}
+.students-add {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.student-add form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.egzaminForm div{
+    text-align: center;
+}
+.egzams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.egzaminForm {
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.3);
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.students-add form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.second {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.tableOut table{
+    width: 70%;
+}
+.tableOut {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tableOut div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.deleteTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close {
+    border: none !important;
+    background-color: transparent;
+    transform: scale(2);
+}
